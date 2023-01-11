@@ -27,6 +27,9 @@ body{
 .header-img{
     width: 50%;
 }
+.header-img img{
+    width: 100%;
+}
 .btn{
     text-decoration: none;
     background-color: #FF8235;
@@ -39,4 +42,33 @@ body{
 }
 
 /* Header style end */
-/* Header style end */
+
+
+/* services-section style  start*/
+.services-section-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#services-section{
+    width: 100%;
+    margin: 20px auto;
+}
+.service-box{
+    width: 30%;
+    background-color: #FFF6E6 ;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.service-icon{
+    width: 30%;
+}
+.service-icon img{
+    width: 100%;
+    padding: 10px;
+}
+.service-text{
+    width: 70%;
+}
+/* services-section style  start*/
