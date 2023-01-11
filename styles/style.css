@@ -1,0 +1,42 @@
+/* Common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+/* Header style start */
+#header{
+    width: 100%;
+    height: 500px;
+    background-color: #FFF6E6 ;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    
+}
+.orange-text{
+    color: orange;
+}
+.header-title{
+    width: 50%;
+
+}
+.header-img{
+    width: 50%;
+}
+.btn{
+    text-decoration: none;
+    background-color: #FF8235;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFFF;
+}
+.btn:hover{
+    background-color: orangered;
+}
+
+/* Header style end */
+/* Header style end */
