@@ -32,13 +32,18 @@ body{
 }
 .btn{
     text-decoration: none;
-    background-color: #FF8235;
+    background: linear-gradient(45deg, orangered, orange);
+    
     padding: 10px 20px;
     border-radius: 5px;
     color: #FFFF;
 }
 .btn:hover{
-    background-color: orangered;
+  background: none;
+  color: orange;
+  border: 1px solid orange;  
+  padding: 9px 19px;
+    
 }
 
 /* Header style end */
@@ -60,6 +65,9 @@ body{
     display: flex;
     align-items: center;
     border-radius: 5px;
+}
+.service-box:hover{
+
 }
 .service-icon{
     width: 30%;
@@ -97,6 +105,29 @@ body{
 .card-img{
     width: 30%
 }
+/* contact section */
+#contact-section{
+    width: 100%;
+    margin: 40px 0;
+}
+.contact{
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px 0;
+    background-color: #FFF6E6;
+    text-align: center;
+}
+.contact input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
 
 
 /* Footer */
